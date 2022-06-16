@@ -9,3 +9,6 @@ execute store result score #count_drawer simpledrawer.math run data get entity @
 
 execute if score #count simpledrawer.io matches 0.. if score #count simpledrawer.io >= #count_drawer simpledrawer.math run function simpledrawer:drawer/working/unfill/sup
 execute if score #count simpledrawer.io matches 0.. if score #count simpledrawer.io < #count_drawer simpledrawer.math run function simpledrawer:drawer/working/unfill/normal
+
+
+

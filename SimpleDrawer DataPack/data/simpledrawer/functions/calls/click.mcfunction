@@ -20,4 +20,7 @@ execute if score #already simpledrawer.math matches 0 if entity @e[tag=simpledra
 
 
 data modify entity @e[tag=simpledrawer.selected,limit=1] ItemRotation set value 0b
+execute as @e[tag=simpledrawer.selected,limit=1] at @s run function simpledrawer:drawer/gui/update
 tag @e[tag=simpledrawer.selected] remove simpledrawer.selected
+
+

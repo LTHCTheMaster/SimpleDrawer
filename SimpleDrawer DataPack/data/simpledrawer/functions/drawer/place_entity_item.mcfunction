@@ -1,5 +1,5 @@
 tag @s remove simpledrawer.summoned
-tag @s remove simpledrawer.summoned2
+
 
 tag @s add simpledrawer.block
 tag @s add simpledrawer.drawer.item

@@ -3,7 +3,7 @@
   "predicate": {
     "block": {
       "blocks": [
-        "minecraft:beehive"
+        "minecraft:furnace"
       ]
     }
   }

@@ -2,6 +2,7 @@
 #Generate simpledrawer:io output and #count_output simpledrawer:io
 #also #success simpledrawer.io
 #Executed by simpledrawer.drawer.item
+
 #define storage simpledrawer:io
 
 scoreboard players set #success simpledrawer.io 0
@@ -15,3 +16,5 @@ data remove storage simpledrawer:main temp.input_no_slot.Slot
 
 execute if data storage simpledrawer:io input if entity @s[tag=!simpledrawer.drawer.filled] run function simpledrawer:drawer/working/fill/first
 execute if data storage simpledrawer:io input if entity @s[tag=simpledrawer.drawer.filled] run function simpledrawer:drawer/working/fill/test
+
+
